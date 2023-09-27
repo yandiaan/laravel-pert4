@@ -50,3 +50,16 @@ Route::get('tiga/page', function () {
 Route::get('/buku/{judul}', function ($judul) {
     return "Buku <b>{$judul}</b> adalah termasuk buku komputer.";
 });
+
+Route::get('/coba', function () {
+    return '<!doctype html>
+ <html lang="en">
+ <head>
+ <meta charset="UTF-8">
+<title>Coba laravel!</title>
+</head>
+<body>
+<p>SELAMAT ANDA BELAJAR LARAVEL</p>
+</body>
+</html>';
+});
