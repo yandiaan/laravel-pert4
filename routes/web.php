@@ -36,3 +36,13 @@ $logic = function () {
     return 'Hello Apa kabhar Badiyanto..........!';
 };
 Route::get('webKu1', $logic);
+
+Route::get('satu/page', function () {
+    return 'Yang ke Satu!';
+});
+Route::get('dua/page', function () {
+    return 'Yang ke Dua!';
+});
+Route::get('tiga/page', function () {
+    return 'Anda Hebat.......!';
+});
