@@ -46,3 +46,7 @@ Route::get('dua/page', function () {
 Route::get('tiga/page', function () {
     return 'Anda Hebat.......!';
 });
+
+Route::get('/buku/{judul}', function ($judul) {
+    return "Buku <b>{$judul}</b> adalah termasuk buku komputer.";
+});
